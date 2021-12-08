@@ -1,0 +1,164 @@
+/*body { 
+    background-color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}*/
+.bold {
+    font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}
+.fontcolor {
+  color:rgb(109, 109, 109);
+}
+.fontstyle{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(109, 109, 109);
+  font-style: italic;
+}
+.center{
+  text-align: center;
+}
+
+.common1 {
+    /*background-color: #cccccc;
+    border: solid 2px white;*/
+    position: absolute;
+}
+
+.header1 {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 500px;
+    z-index: 2;
+    border-bottom: solid 1px darkgrey;
+} 
+
+
+/*Navigation*/
+
+/* Add a black background color to the top navigation 
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+*/
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: lightblue;
+  color:black;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+
+
+  /* Centered Page Heading text */
+.container1 {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+.centered1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+  }
+
+.pageheader1 {
+    font-size: 100px;
+}
+.mainbody1 {
+    top: 514px;
+    bottom: 0px;
+    left: 25%;
+    right: 0px;
+    padding-right: 0px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+.Caption1 {
+  text-align: left
+}
+.mainbody2 {
+  top: 514px;
+  bottom: 0px;
+  left: 25%;
+  right: 0px;
+  padding-right: 0px;
+}
+/* 
+.leftmenu {
+    top: 114px;
+    left: 5px;
+    width: 100px;
+    bottom: 64px;
+    z-index: 1;
+    padding-top: 40px;
+    border-right: solid 1px darkgrey;
+}
+.rightmenu {
+    top: 114px;
+    bottom: 64px;
+    right: 5px;
+    width: 100px;
+    border-left: solid 1px darkgrey;
+    padding-left: 5px;
+}
+*/
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column1 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  height: 33.33%;
+}
+
+/* Clear floats after image containers */
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.footer1 {
+    bottom: 15px;
+    height: 30px;
+    left: 5px;
+    right: 5px;
+    font-size: 20px;
+    color: #999999;
+    text-align: center;
+    position: fixed;
+}
+.subheader1{
+    float: right;
+}
+
